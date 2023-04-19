@@ -113,7 +113,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
     public void update(){
         backgroundM.update();
-        //collisionChecker.update();
+        collisionChecker.update();
         player.update();
         projectile.update();
 

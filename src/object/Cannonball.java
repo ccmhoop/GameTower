@@ -79,7 +79,6 @@ public class Cannonball extends Projectile {
                            j=aCan.size()-1;
                            pjCounter--;
                             System.out.println(pjCounter);
-                          // i=pjName.size()+1;
 
                         } else {
                             Projectile.canDraw(g, a, canbX, canbY,j);

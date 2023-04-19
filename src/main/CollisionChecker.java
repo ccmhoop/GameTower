@@ -32,31 +32,34 @@ public class CollisionChecker {
     public static boolean checkTower(){
         a=0;
         xPp-=2;
-        if ((xPp>=375 && xPp<=560) && (yPp>=390 && yPp<=685)) {
+        if ((xPp>=375 && xPp<=560) && (yPp>=390 && yPp<=685)&&health>0) {
 
             if  ((xPp == 380))  {
                 a = 1;
                 KeyboardInputs.checkSpeed(a);
+                //KeyboardInputs.setDirection("right");
             }
             if ((xPp ==560)) {
                 a = 2;
                 KeyboardInputs.checkSpeed(a);
+                //KeyboardInputs.setDirection("left");
             }
             if ((yPp==390)&&(xPp >= 380 && xPp <= 560)) {
                 a = 3;
                 KeyboardInputs.checkSpeed(a);
+                //KeyboardInputs.setDirection("down");
             }
-            if ((yPp==685)&&(xPp>= 380 && xPp <= 560)) {
+            if ((yPp==675)&&(xPp >= 380 && xPp <= 560)) {
                 a = 4;
                 KeyboardInputs.checkSpeed(a);
             }
-            TowerEntity.towerCol=true;
-            health -= 11;
-            Tower.towerHp=health;
-            if (health <0){
-                BackgroundManager.background[9]=null;
+            // TowerEntity.towerCol=true;
+            //health -= 11;
+             Tower.towerHp=health;
+                if (health <0){
+               BackgroundManager.background[9]=null;
                 return true;
-            }
+                }
             return true;
         }
         return false;

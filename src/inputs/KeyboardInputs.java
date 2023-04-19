@@ -1,6 +1,7 @@
 package inputs;
 
 import entity.Entity;
+import entity.Player;
 import main.CollisionChecker;
 import object.Cannonball;
 
@@ -14,19 +15,22 @@ public class KeyboardInputs implements KeyListener {
     public int xP,yP;
     public int speed=2;
 
-    public static boolean upPressed,downPressed,leftPressed,rightPressed,ePressed;
+    public static boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,ePressed;
 
-    public static void setSpeed(){
-
+    public static void setDirection(String a){
+        switch (KeyboardInputs.direction) {
+            case "up" -> upPressed=false;
+            case "down" -> downPressed=false;
+            case "left" -> leftPressed=false;
+            case "right" -> rightPressed=false;
+        }
     }
 
     public static void checkSpeed(int a){
         if(a==1){
            rightPressed=false;
-            System.out.println("da");
         }
         if (a==2){
-            System.out.println("Daddy");
             leftPressed=false;
         }
         if (a==3){
@@ -59,6 +63,7 @@ public class KeyboardInputs implements KeyListener {
         else if(code == KeyEvent.VK_D){
             rightPressed = true;
         }
+
         if (code == KeyEvent.VK_E){
             ePressed = true;
             Cannonball.canshot(true);
@@ -72,15 +77,18 @@ public class KeyboardInputs implements KeyListener {
 
         if(code == KeyEvent.VK_W){
             upPressed = false;
+
         }
         else if(code == KeyEvent.VK_S){
             downPressed = false;
         }
         else if(code == KeyEvent.VK_A){
             leftPressed = false;
+            Player.aniloader=0;
         }
-        else if(code == KeyEvent.VK_D){
+        else if(code == KeyEvent.VK_D) {
             rightPressed = false;
+            Player.aniloader = 0;
         }
         if (code == KeyEvent.VK_E){
             ePressed = false;
