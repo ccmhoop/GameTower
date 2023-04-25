@@ -28,27 +28,12 @@ public class Entity {
     }
     }
 
-    public void getXY(int x,int y){
-        hx = x;
-        hy = y;
-    }
-    public void setXY(int x,int y){
-        hx = x;
-        hy = y;
-    }
-
 
     public void drawHitbox(Graphics2D g){
     g.setColor(Color.PINK);
    // g.drawRect(hx,hy, hitbox.width, hitbox.height);
     }
 
-    public void initHitbox(){
-        hitbox = new Rectangle(hx,hy,48,48);
-    }
-
-    public void updateHitbox(){
-    }
 
 
 }

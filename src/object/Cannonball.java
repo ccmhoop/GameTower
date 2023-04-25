@@ -1,9 +1,7 @@
 package object;
 
-import entity.Entity;
 import entity.Projectile;
-import inputs.KeyboardInputs;
-import main.CollisionChecker;
+import collision.CollisionChecker;
 import main.GamePanel;
 import tower.Tower;
 
@@ -22,6 +20,7 @@ public class Cannonball extends Projectile {
     static int canCount=0;
     static int reload, canFade, cBallSpeed,life;
     static boolean cannonShot;
+    CollisionChecker colCheck;
     public static ArrayList<Integer> aCan = new ArrayList<>();
     public static ArrayList<Integer> xCan = new ArrayList<>();
     public static ArrayList<Integer> yCan = new ArrayList<>();
@@ -31,19 +30,14 @@ public class Cannonball extends Projectile {
         name = "canBal";
         pjSpeed = 6;
         pjAttack = 2;
-        //  setImage("/res/projectile/cannonball.png");
-        //getImage();
     }
 
 
     public static void canshot(boolean a) {
-        //System.out.println(pjType[0]+" check");
-
         if (a && reload == 0) {
             try {
                 aCan.add(canCount);
-                pjName.add("canB" + canCount); //aCan.indexOf(canCount));
-                //aCan.add(canCount);
+                pjName.add("canB" + canCount);
                 pjCounter++;
                 System.out.println(aCan.size()+"  "+pjName.size());
                 ppjX.add(550);
@@ -71,7 +65,7 @@ public class Cannonball extends Projectile {
                         canbX = ppjX.get(a);
                         canbY = ppjY.get(a);
                         CollisionChecker.position(canbX, canbY);
-                        if ((Tower.towerHp>0 && CollisionChecker.checkTower())||life>120) {
+                       if ((Tower.towerHp>0 && CollisionChecker.checkTower())||life>120) {
 
                             pjArrayTrim(a);
                             aCan.remove(a);
@@ -102,8 +96,6 @@ public class Cannonball extends Projectile {
         }
     }
 
-
-
     public static void canReload() {
         if (reload > 0) {
             reload++;
@@ -119,8 +111,4 @@ public class Cannonball extends Projectile {
 
 }
 
-    //public static void getImage(){
-  //  setImage("src/res/projectile/cannonball.png");
-
-   // }
 

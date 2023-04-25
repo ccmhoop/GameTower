@@ -1,20 +1,19 @@
 package main;
 
-import background.Background;
 import background.BackgroundManager;
+import background.levels.TileGen;
+import collision.CollisionChecker;
 import effects.EffectAni;
 import entity.Entity;
 import entity.Player;
 import entity.Projectile;
 import inputs.KeyboardInputs;
-import inputs.MouseInputs;
+import tile.TileManager;
 import tower.Tower;
-import tower.TowerEntity;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
 
 
 public class GamePanel extends JPanel implements Runnable {
@@ -25,17 +24,19 @@ public class GamePanel extends JPanel implements Runnable {
 
     private float xDelta=0, yDelta = 0;
     private float xDir=0.001f, yDir = 0.001f;
-    final int originalTileSize =16; // 16x16 Tile
-    final int scale = 3;
-    public final int tileSize = originalTileSize * scale; // 48x48 pixel Tile
-    final int maxScreenCol = 40;
-    final int maxScreenRow = 22;
+    final int originalTileSize = 128;
+    final int scale = 1;
+    public final int tileSize = originalTileSize * scale;
+    public final int maxScreenCol = 15;
+    public final int maxScreenRow = 9;
     final int screenWidth = tileSize * maxScreenCol; //1920
     final int screenHeight = tileSize* maxScreenRow; //1056
     //private MouseInputs mouseInputs;
     KeyboardInputs keyH = new KeyboardInputs();
     Thread gameThread;
     BackgroundManager backgroundM = new BackgroundManager(this);
+    TileGen tilegen = new TileGen(this);
+    TileManager tileManager = new TileManager(this);
     Player player = new Player(this,keyH);
     Tower tower = new Tower(this);
     public CollisionChecker collisionChecker = new CollisionChecker(this);
@@ -53,13 +54,14 @@ public class GamePanel extends JPanel implements Runnable {
         this.setPreferredSize(new Dimension(screenWidth,screenHeight));
         //this.setPreferredSize(new Dimension(1920,1080));
         this.setBackground(Color.BLACK);
-        //this.setDoubleBuffered(true);
+        this.setDoubleBuffered(true);
         this.setFocusable(true);
+        //this.tilegen = new TileGen(this);
         tower = new Tower(this);
         this.collisionChecker = new CollisionChecker(this);
         //player.setDefaultValues();
         player = new Player(this,keyH);
-       player.loadLvlDate(backgroundM.getCurrentLevel().getLevelData());
+        player.loadLvlDate(backgroundM.getCurrentLevel().getLevelData());
         startGameThread();
     }
     public void updatePos(){
@@ -125,8 +127,10 @@ public class GamePanel extends JPanel implements Runnable {
 
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D)g;
-
         backgroundM.draw(g2);
+        collisionChecker.draw(g2);
+        tileManager.draw(g2);
+        //tilegen.draw(g2);
         tower.draw(g2);
         projectile.draw(g2);
         player.draw(g2);

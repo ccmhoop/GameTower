@@ -1,8 +1,7 @@
 package inputs;
 
-import entity.Entity;
 import entity.Player;
-import main.CollisionChecker;
+import collision.CollisionChecker;
 import object.Cannonball;
 
 import java.awt.event.KeyEvent;
@@ -10,14 +9,33 @@ import java.awt.event.KeyListener;
 
 public class KeyboardInputs implements KeyListener {
 
+    public boolean collisionOn =false;
     public static String direction;
     public CollisionChecker col;
-    public int xP,yP;
-    public int speed=2;
+    public static int xP;
+    public static int yP;
+    //public static int jumpTimeCounter,airTimeCounter;
+    public int speed=3;
 
-    public static boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,ePressed;
+    public static int getyP() {
+        return yP;
+    }
 
-    public static void setDirection(String a){
+    public static void setyP(int yP) {
+        KeyboardInputs.yP = yP;
+    }
+
+    public int getxP() {
+        return xP;
+    }
+
+    public static void setxP(int xP) {
+        KeyboardInputs.xP = xP;
+    }
+
+    public static boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,spaceBar=false,ePressed,sideCheck;//jump=false;
+
+    public void setDirection(String a){
         switch (KeyboardInputs.direction) {
             case "up" -> upPressed=false;
             case "down" -> downPressed=false;
@@ -62,6 +80,12 @@ public class KeyboardInputs implements KeyListener {
         }
         else if(code == KeyEvent.VK_D){
             rightPressed = true;
+        } else if (code==KeyEvent.VK_SPACE) {
+            spaceBar=true;
+            CollisionChecker.jump=true;
+            //if (CollisionChecker.collision&& !jump){
+                //jump=true;
+           // }
         }
 
         if (code == KeyEvent.VK_E){
@@ -77,23 +101,32 @@ public class KeyboardInputs implements KeyListener {
 
         if(code == KeyEvent.VK_W){
             upPressed = false;
-
+            Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_S){
             downPressed = false;
+            Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_A){
             leftPressed = false;
+            sideCheck=false;
             Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_D) {
             rightPressed = false;
+            sideCheck=true;
             Player.aniloader = 0;
         }
+        else if (code==KeyEvent.VK_SPACE) {
+        spaceBar=false;
+         }
         if (code == KeyEvent.VK_E){
             ePressed = false;
             Cannonball.canshot(false);
         }
+       // if(!upPressed&&downPressed&&leftPressed&&rightPressed){
+            //nonPressed=true;
+        //}
     }
 
 }

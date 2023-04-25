@@ -5,292 +5,332 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="niet klaar">
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/AI/Paladin.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/Blessed/AI/Blessed.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/Blessed/EPS/Blessed.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/Blessed/PNG/Blessed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Body.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Head.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Left Arm.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Left Hand.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Left Leg.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Right Arm.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Right Hand.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Right Leg.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Shield.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_SlashFX.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/EPS/Paladin_Sword.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Blessed/0_Paladin_Blessed_029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Dying/0_Paladin_Dying_014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Falling Down/0_Paladin_Falling Down_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Hurt/0_Paladin_Hurt_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Loop/0_Paladin_Jump Loop_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Jump Start/0_Paladin_Jump Start_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Kicking/0_Paladin_Kicking_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Slashing/0_Paladin_Run Slashing_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Run Throwing/0_Paladin_Run Throwing_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing in The Air/0_Paladin_Slashing in The Air_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Slashing/0_Paladin_Slashing_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Sliding/0_Paladin_Sliding_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing in The Air/0_Paladin_Throwing in The Air_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Throwing/0_Paladin_Throwing_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/PNG Sequences/Walking/0_Paladin_Walking_023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Animations.scml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Left Arm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Left Hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Left Leg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Right Arm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Right Hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Right Leg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/SlashFX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/Sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/PNG/Vector Parts/bl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/TXT/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/TXT/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/PaladinWhite/Unity Package/Paladin.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/background/levels/TileGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collision/HitBoxPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gravity/Gravity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/1_game_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/2_game_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/3_game_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/4_game_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Decor_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Decor_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Mount_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Mountain_BG_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Decor_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Decor_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Mount_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Mountain_BG_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Decor_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Decor_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Mount_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Mountain_BG_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Decor_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Decor_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Mount_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Mountain_BG_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l1_sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l2_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l3_mountains-and-sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l4_clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l5_ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/maps/basisMap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/maps/map1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/AI/Cartoon_Village_ Level_Set.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Background - Layer 00.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Background - Layer 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Roof 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Roof 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 06.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 07.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 08.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Ladder 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Ladder 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 06.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 07.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Bench.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Divine Statue.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Drying Cloth 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Drying Cloth 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 06.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_01-23.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_01-24.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_03     .eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Quest Board.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 06.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 07.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 08.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sack 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sack 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Stump.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sunflover.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Tree 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Tree 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wall Plant.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wheat.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wooden Barrel.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wooden Crate.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 01.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 02.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 03.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 04.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 05.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 06.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 07.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 08.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 09.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 10.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 11.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 12.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 13.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Background/Background_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Background/Background_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Roof_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Roof_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Ladder_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Ladder_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Bench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Divine_Statue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Drying_Cloth_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Drying_Cloth_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Quest_Board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sack_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sack_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Stump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sunflower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Tree_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Tree_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wall_Plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wheat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wooden_Barrel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wooden_Crate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/TXT/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/TXT/license.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/BackgroundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/BackgroundManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Projectile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/object/Cannonball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Cannonball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +364,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ccmar/IdeaProjects/Game/src/res/PaladinWhite/PNG/PNG Sequences&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ccmar/IdeaProjects/Game/src/res/maps&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -337,15 +377,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\maps" />
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\background" />
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\tiles\FantasyCartoonVillage\PNG\Platformer" />
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\background\cartoonBg" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\PaladinWhite\PNG\PNG Sequences" />
-      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\PaladinWhite\PNG\PNG Sequences\RunLeft" />
-      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\PaladinWhite\PNG\PNG Sequences\Running" />
-      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res" />
-      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\Canon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ccmar\IdeaProjects\Game" />
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\tiles" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\background" />
+      <recent name="C:\Users\ccmar\IdeaProjects\Game" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\player" />
     </key>
   </component>
@@ -355,7 +396,7 @@
       <module name="Game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="collision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681904279074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="niet klaar">
+      <created>1681946146639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681946146639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -404,10 +452,24 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>35</line>
+          <properties class="entity.Player" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
-          <line>38</line>
+          <line>56</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

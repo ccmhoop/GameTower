@@ -1,9 +1,8 @@
 package entity;
 
 import inputs.KeyboardInputs;
-import main.CollisionChecker;
+import collision.CollisionChecker;
 import main.GamePanel;
-import object.Cannonball;
 import tower.TowerEntity;
 
 import javax.imageio.ImageIO;
@@ -17,7 +16,7 @@ public class Player extends KeyboardInputs{
 
     GamePanel gp;
     BufferedImage img,idl;
-    boolean sideCheck;
+   // boolean sideCheck;
     KeyboardInputs keyH;
     public static byte aniTimer = 0, aniloader = 0,drawAni;
 
@@ -39,17 +38,13 @@ public class Player extends KeyboardInputs{
         this.keyH = keyH;
         this.check = new CollisionChecker(gp);
         setDefaultValues();
-       // getPlayerImage();
-        loadPlayerAnimation();
-        //entity.getXY(xP,yP);
-       // entity.initHitbox();
+        loadPlayerAnimation();;
 
     }
     private void loadPlayerAnimation(){
         for(int i=0;i<=17;i++){
             try{
                 if(i>9){
-                    System.out.println(i);
                     idle[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_0"+i+".png")));
 
                 }else {
@@ -75,28 +70,39 @@ public class Player extends KeyboardInputs{
                 }
             } else if (aniloader >= b) {
                 aniloader = 0;
-            }if (aniTimer>a){
+            }
+            if (aniTimer>a){
                 aniTimer=0;
         }
             aniTimer+=1;
     }
 
+    /*
+    public void jump(){
+        if (jump&&airTimeCounter>1){
+            yP-=50;
+            airTimeCounter = 0;
+            jumpTimeCounter+=1;
+            System.out.println(jump);
+        } else if (jumpTimeCounter>15) {
+            jumpTimeCounter=0;
+            airTimeCounter=0;
+            jump=false;
+            System.out.println(jump);
+        }
+        airTimeCounter+=1;
+    }
+
+     */
     public void setDefaultValues(){
         Projectile projectile = new Projectile(gp);
         sideCheck=true;
-        keyH.xP=300;
-        keyH.yP=550;
-
-        //keyH.speed = 2;
-    direction = "down";
+       // keyH.setxP(300);
+       // setyP(550);
+   // direction = "down";
     }
 
-    public int setPlayerX(){
-      return xP;
-    }
-    public int setPlayerY(){
-        return yP;
-    }
+
 
     public void loadLvlDate(int[] lvlData){
         this.lvlData = lvlData;
@@ -112,29 +118,28 @@ public class Player extends KeyboardInputs{
 
     public void update(){
         if(upPressed){
-            direction = "up";
-            keyH.yP -= keyH.speed;
+           //direction = "up";
+           // yP -= keyH.speed;
         }
         else if (downPressed){
-            direction = "down";
-            keyH.yP += keyH.speed;
+          // direction = "down";
+           // yP += keyH.speed;
         }
         else if (leftPressed){
-            direction = "left";
-            keyH.xP -= keyH.speed;
+           direction = "left";
+            xP -= keyH.speed;
             drawAni=3;
             idleAni(5, 10);
-            sideCheck=false;
+            //sideCheck=false;
         }
         else if (rightPressed){
-            direction = "right";
-            keyH.xP += keyH.speed;
+           direction = "right";
+            xP += keyH.speed;
             drawAni=1;
             idleAni(5, 10);
-            sideCheck=true;
+            //sideCheck=true;
 
         }else{
-            System.out.println(aniloader);
            nonPressed = false;
             if (sideCheck) {
                 drawAni = 2;
@@ -145,29 +150,22 @@ public class Player extends KeyboardInputs{
             }
 
         }
-        if(ePressed){
-
-           // gp.projectileList.add(Entity.projectile);
-        }
+        collisionOn =false;
+        //gp.collisionChecker.checkTile(this);
         //Projectile.playerPosition(keyH.xP, keyH.yP);
         //Projectile.setProjectile(keyH.xP, keyH.yP,direction);
        // System.out.println(xP+" "+yP);
-        CollisionChecker.position(keyH.xP, keyH.yP);
+       // CollisionChecker.position(keyH.xP, keyH.yP);
     }
 
 
     public void draw(Graphics2D g2){
-
-        //BufferedImage image = null,head = null,body,feet = null;
         switch (drawAni){
-            case 1->g2.drawImage(run[aniloader],keyH.xP,keyH.yP, 96, 96, null);
-            case 2->g2.drawImage(idle[aniloader],keyH.xP,keyH.yP, 96, 96, null);
-            case 3->g2.drawImage(runLeft[aniloader],keyH.xP,keyH.yP, 96, 96, null);
-            case 4->g2.drawImage(idleLeft[aniloader],keyH.xP,keyH.yP, 96, 96, null);
+            case 1->g2.drawImage(run[aniloader], xP, yP, 128, 128, null);
+            case 2->g2.drawImage(idle[aniloader], xP, yP, 128, 128, null);
+            case 3->g2.drawImage(runLeft[aniloader], xP, yP, 128, 128, null);
+            case 4->g2.drawImage(idleLeft[aniloader], xP, yP, 128, 128, null);
         }
-
-       // entity.drawHitbox(g2);
-
     }
 
 }

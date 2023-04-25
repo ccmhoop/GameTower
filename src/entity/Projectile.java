@@ -40,11 +40,6 @@ public class Projectile extends Entity {
         ppjY.remove(a);
        pjName.remove(a);
         pjImage.remove(a);
-       //pjLife.trimToSize();
-       // ppjY.trimToSize();
-      // ppjX.trimToSize();
-       // pjImage.trimToSize();
-      // pjName.trimToSize();
     }
 
     public static void getPjPosition() {
@@ -78,11 +73,6 @@ public class Projectile extends Entity {
 
     public static void canDraw(Graphics2D g,int a,int b,int c,int e){
 
-        /*
-        for (int i = 0; i <pjImage.size(); i++) {
-            g.drawImage(pjImage.get(a), b, c, 48, 48, null);
-        }
-         */
         for (int i = 0; i <e; i++) {
             g.drawImage(pjImage.get(a), b, c, 25, 25, null);
         }
@@ -90,13 +80,9 @@ public class Projectile extends Entity {
 
     public void draw(Graphics2D g) {
 
-
             try {
             Cannonball.cannonballPj(g);
 
-               //for (int i = 0; i <pjName.size(); i++) {
-                   // g.drawImage(pjImage.get(i), ppjX.get(i), ppjY.get(i), 48, 48, null);
-              // }
             } catch (IndexOutOfBoundsException e) {
 
             }
