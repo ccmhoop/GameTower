@@ -9,6 +9,7 @@ public class CollisionChecker {
     static int playerPosX;
     static int playerPosY;
     private int predictCollisionY; //calculates player Y position 10 steps ahead. Compensates for lag;
+
     public void getPlayerPosition(int a,int b){
         playerPosX = a+64; // +64 compensates for image size (sets true location)
         playerPosY = b;
@@ -38,9 +39,11 @@ public class CollisionChecker {
             }
         }
     }
+
     public void update(){
         collisionPrediction();
     }
+
     public void draw(Graphics2D g2){
     }
 }

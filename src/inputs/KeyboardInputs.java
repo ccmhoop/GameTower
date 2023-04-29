@@ -16,10 +16,12 @@ public class KeyboardInputs implements KeyListener {
             case "right" -> rightPressed=false;
         }
     }
+
     @Override
     public void keyTyped(KeyEvent e) {
 
     }
+
     @Override
     public void keyPressed(KeyEvent e) {
 
@@ -52,25 +54,20 @@ public class KeyboardInputs implements KeyListener {
 
         if(code == KeyEvent.VK_W){
             upPressed = false;
-            Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_S){
             downPressed = false;
-            Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_A){
             leftPressed = false;
             sideCheck=false;
-            Player.aniloader=0;
         }
         else if(code == KeyEvent.VK_D) {
             rightPressed = false;
             sideCheck=true;
-            Player.aniloader = 0;
         }
         else if (code==KeyEvent.VK_SPACE) {
         spaceBar=false;
-            Player.aniloader = 0;
          }
         if (code == KeyEvent.VK_E){
             ePressed = false;

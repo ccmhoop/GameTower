@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;ik ga de animate Index out of bounds op te lossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz." />
+    <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;ik ga de animate Index out of bounds op te lossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682781050524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;ik ga de animate Index out of bounds op te lossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
+      <created>1682781313111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682781313111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

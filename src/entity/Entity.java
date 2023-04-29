@@ -8,7 +8,7 @@ import java.util.Objects;
 public class Entity {
 
     public int playerPositionX,playerPositionY,playerSpeed=2;
-    public static byte aniTimer = 0, aniloader;
+    public static byte animationTimer = 0, animationloader;
     private int jumpCycle;
     public static boolean sideCheck,jumpActive;
     public static int animationIndex,animation=1;
@@ -64,15 +64,15 @@ public class Entity {
         }
     } //reworking for better animation loading
     public void idleAni(int a,int b) {
-        if (aniTimer == a) {
-            aniloader++;
-        } else if (aniloader >= b){
-            aniloader = 0;
+        if (animationTimer == a) {
+            animationloader++;
+        } else if (animationloader >= b){
+            animationloader = 0;
         }
-        if (aniTimer>a){
-            aniTimer=0;
+        if (animationTimer>a){
+            animationTimer=0;
         }
-        aniTimer+=1;
+        animationTimer+=1;
     }
     public void jump() {
         if (jumpActive && !Gravity.collision) {
