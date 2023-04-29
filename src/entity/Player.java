@@ -31,9 +31,8 @@ public class Player extends Entity{
         this.gp = gp;
         this.keyBoard = keyH;
         setDefaultValues();
-        loadPlayerAnimation();;
+        loadPlayerAnimation();
     }
-
 
     //reworking
     private void loadPlayerAnimation(){
@@ -101,11 +100,11 @@ public class Player extends Entity{
     //Reworking into method
     public void draw(Graphics2D g2){
         switch (drawAni){
-            case 1->g2.drawImage(run[animationloader], playerPositionX, playerPositionY, 128, 128, null);
-            case 2->g2.drawImage(idle[animationloader], playerPositionX, playerPositionY, 128, 128, null);
-            case 3->g2.drawImage(runLeft[animationloader], playerPositionX, playerPositionY, 128, 128, null);
-            case 4->g2.drawImage(idleLeft[animationloader], playerPositionX, playerPositionY, 128, 128, null);
-            case 5->g2.drawImage(jump[animationloader], playerPositionX, playerPositionY, 128, 128, null);
+            case 1->g2.drawImage(run[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
+            case 2->g2.drawImage(idle[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
+            case 3->g2.drawImage(runLeft[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
+            case 4->g2.drawImage(idleLeft[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
+            case 5->g2.drawImage(jump[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
         }
     }
 

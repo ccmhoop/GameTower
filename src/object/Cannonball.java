@@ -1,7 +1,6 @@
 package object;
 
 import entity.rework.Projectile;
-import collision.CollisionChecker;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.IOException;

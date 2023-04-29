@@ -8,16 +8,19 @@ import java.util.Objects;
 public class Entity {
 
     public int playerPositionX,playerPositionY,playerSpeed=2;
-    public static byte animationTimer = 0, animationloader;
+    public static byte animationTimer = 0, animationLoader;
     private int jumpCycle;
     public static boolean sideCheck,jumpActive;
     public static int animationIndex,animation=1;
 
     public String name;
 
+    // I am using this to check if the new animation loader gets errors.
     public static void main(String[] args) {
         setAniArray();
-    }// I am using this to check if the new animation loader gets errors.
+    }
+
+    //reworking for better animation loading
     public static void setAniArray(){
         int c = 1;
         int d =0;
@@ -52,22 +55,23 @@ public class Entity {
             }catch(IOException e){
                 e.printStackTrace();
             }
-        } //reworking for better animation loading
+        }
+
+    //reworking for better animation loading
     public static void setAniArray(int a){
-        //for (int i =0;i<=a;i++){
             animationIndex ++;
-           // System.out.println(animationIndex);
-       // }
         if (a == animationIndex){
             animationIndex=0;
             animation++;
         }
-    } //reworking for better animation loading
+    }
+
+    //Hold spacebar to go through a platform tap spacebar to jump on top of a platform
     public void idleAni(int a,int b) {
         if (animationTimer == a) {
-            animationloader++;
-        } else if (animationloader >= b){
-            animationloader = 0;
+            animationLoader++;
+        } else if (animationLoader >= b){
+            animationLoader = 0;
         }
         if (animationTimer>a){
             animationTimer=0;
@@ -93,5 +97,5 @@ public class Entity {
             jumpActive=false;
             jumpCycle=0;
         }
-    }//Hold spacebar to go through a platform tap spacebar to jump on top of a platform
+    }
 }
