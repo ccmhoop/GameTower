@@ -48,6 +48,7 @@ public class TileManager {
         loadMap();
     }
 
+    //loads in images. tiles 80 by 80. this is going to be looped when all images are known; .
     public void getTileImage() {
         try {
             //tile[0] = invisible;
@@ -74,7 +75,9 @@ public class TileManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    } //loads in images. tiles 80 by 80. this is going to be looped when all images are known; .
+    }
+
+    //loads in data from txt files to set Tile Graphics and location
     public void loadMap(){
         try(InputStream is = getClass().getResourceAsStream("/res/maps/map1.txt")) {
            assert is != null;
@@ -99,7 +102,9 @@ public class TileManager {
         }catch (Exception e){
             e.printStackTrace();
         }
-    } //loads in data from txt files to set Tile Graphics and location
+    }
+
+    //loads collision positions once per map
     public void collisionLoader(int a, int b,int c ,int d){
         if (tileLoadCounter < 336) {
             if (a == 2 || b == 6) {
@@ -112,7 +117,9 @@ public class TileManager {
             collisionLeft.add(c - 80);
             tileLoadCounter++;
         }
-    }//loads collision positions once per map
+    }
+
+    //Draws Graphics. *uses collisionLoader();
     public void mapDraw(Graphics2D g2){
         int col = 0,row =0,x=0,y=0;
         while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
@@ -128,7 +135,7 @@ public class TileManager {
                 x = 0;
             }
         }
-    }//Draws Graphics. *uses collisionLoader();
+    }
     public void draw(Graphics2D g2) {
         mapDraw(g2);
     }

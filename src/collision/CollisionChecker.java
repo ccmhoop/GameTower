@@ -14,6 +14,7 @@ public class CollisionChecker {
         playerPosY = b;
     }
 
+    //calculates player Y position 10 steps ahead. Compensates for lag;
     private void collisionPrediction() {
         for (int i = 10; 0 < i; i--) {
             predictCollisionY = playerPosY - i;
@@ -21,7 +22,9 @@ public class CollisionChecker {
                 collisionCheck();
             }
         }
-    }//calculates player Y position 10 steps ahead. Compensates for lag;
+    }
+
+    //checks for collision if predictCollisionY == collisionYaxis
     private void collisionCheck(){
         for (int p =335; 0 < p; p--) {
             if (collisionYaxis.get(p) ==  predictCollisionY) {
@@ -34,7 +37,7 @@ public class CollisionChecker {
                 }
             }
         }
-    }//checks for collision if predictCollisionY == collisionYaxis
+    }
     public void update(){
         collisionPrediction();
     }

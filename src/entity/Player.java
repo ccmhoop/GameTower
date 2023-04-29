@@ -34,6 +34,8 @@ public class Player extends Entity{
         loadPlayerAnimation();;
     }
 
+
+    //rework in progress
     private void loadPlayerAnimation(){
         for(int i=0;i<=17;i++){
             try{
@@ -61,6 +63,7 @@ public class Player extends Entity{
         sideCheck=true;
     }
 
+    //Reworking. Hold spacebar to go through a platform tap spacebar/release to jump on top of a platform
     public void update(){
         if (keyBoard.leftPressed){
             playerPositionX -= playerSpeed;
@@ -93,8 +96,9 @@ public class Player extends Entity{
           playerPositionY=gravity.gravity(playerPositionY);
       }
       collisionChecker.getPlayerPosition(playerPositionX,playerPositionY);
-    }//Reworking. Hold spacebar to go through a platform tap spacebar to jump on top of a platform
+    }
 
+    //Reworking into method
     public void draw(Graphics2D g2){
         switch (drawAni){
             case 1->g2.drawImage(run[aniloader], playerPositionX, playerPositionY, 128, 128, null);
@@ -103,6 +107,6 @@ public class Player extends Entity{
             case 4->g2.drawImage(idleLeft[aniloader], playerPositionX, playerPositionY, 128, 128, null);
             case 5->g2.drawImage(jump[aniloader], playerPositionX, playerPositionY, 128, 128, null);
         }
-    }//Reworking into method
+    }
 
 }
