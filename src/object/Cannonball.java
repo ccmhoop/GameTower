@@ -1,10 +1,7 @@
 package object;
 
-import entity.Projectile;
+import entity.rework.Projectile;
 import collision.CollisionChecker;
-import main.GamePanel;
-import tower.Tower;
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.IOException;
@@ -13,26 +10,21 @@ import java.util.Objects;
 
 public class Cannonball extends Projectile {
 
-    GamePanel gp;
-
     static int canbX;
     static int canbY;
     static int canCount=0;
-    static int reload, canFade, cBallSpeed,life;
-    static boolean cannonShot;
-    CollisionChecker colCheck;
+    static int reload,life;
     public static ArrayList<Integer> aCan = new ArrayList<>();
-    public static ArrayList<Integer> xCan = new ArrayList<>();
-    public static ArrayList<Integer> yCan = new ArrayList<>();
-
-    public Cannonball(GamePanel gp) {
-        super(gp);
+    /*
+     * Proof of concept.
+     * I tried to make an automatic firing function.
+     * It is working but needs to be improved and optimized.
+     */
+    public Cannonball() {
         name = "canBal";
         pjSpeed = 6;
         pjAttack = 2;
     }
-
-
     public static void canshot(boolean a) {
         if (a && reload == 0) {
             try {
@@ -51,29 +43,24 @@ public class Cannonball extends Projectile {
             }
         }
     }
-
-
     public static void cannonballPj(Graphics2D g) {
         int j = aCan.size();
         if(j>0) {
             for (int i = 0; i <j; i++) {
                 try {
-
                     if (pjName.contains("canB" + aCan.get(i))) {
                         int a = pjName.indexOf("canB" + aCan.get(i));
                         life = pjLife.get(a);
                         canbX = ppjX.get(a);
                         canbY = ppjY.get(a);
-                        CollisionChecker.position(canbX, canbY);
-                       if ((Tower.towerHp>0 && CollisionChecker.checkTower())||life>120) {
-
+                        //CollisionChecker.projectileCollision(canbX, canbY);
+                       if (life>120) {
                             pjArrayTrim(a);
                             aCan.remove(a);
                             System.out.println(pjName.size() + " " + aCan.size()+" "+ppjY.size()+" "+pjImage.size());
                            j=aCan.size()-1;
                            pjCounter--;
                             System.out.println(pjCounter);
-
                         } else {
                             Projectile.canDraw(g, a, canbX, canbY,j);
                             ppjX.set(a, canbX + 20);
@@ -81,7 +68,6 @@ public class Cannonball extends Projectile {
                             pjLife.set(a,life+1);
                         }
                     }
-
                 } catch (IndexOutOfBoundsException e) {
                     e.printStackTrace();
                 }
@@ -95,20 +81,16 @@ public class Cannonball extends Projectile {
             canCount =0;
         }
     }
-
     public static void canReload() {
         if (reload > 0) {
             reload++;
             if (reload > 60) {
                 reload = 0;
             }
-
         } else {
             reload = 0;
         }
-
     }
-
 }
 
 

@@ -5,332 +5,474 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="niet klaar">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/background/levels/TileGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collision/HitBoxPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gravity/Gravity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/1_game_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/1_game_background/layers/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/2_game_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/2_game_background/layers/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/3_game_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/3_game_background/layers/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/4_game_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/4_game_background/layers/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Decor_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Decor_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Mount_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Layers/Sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_01/Mountain_BG_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Decor_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Decor_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Mount_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Layers/Sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_02/Mountain_BG_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Decor_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Decor_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Mount_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Layers/Sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_03/Mountain_BG_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Decor_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Decor_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Mount_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Layers/Sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/Mountain_BG_04/Mountain_BG_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l1_sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l2_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l3_mountains-and-sea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l4_clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/background/cartoonBg/l5_ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/maps/basisMap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/maps/map1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/AI/Cartoon_Village_ Level_Set.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Background - Layer 00.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Background - Layer 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Canopy 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Chimney 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Roof 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Roof 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 06.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 07.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Decor Window 08.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Door 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Ladder 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Ladder 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 06.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Pillar 07.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof A 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Roof B 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Stone Window 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall A 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall B 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wall C 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Wide Door 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Building - Window 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Banner 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Bench.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Divine Statue.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Drying Cloth 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Drying Cloth 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Fence 06.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_01-23.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_01-24.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Grass_03     .eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Plant Pot 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Quest Board.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 06.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 07.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Rock 08.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sack 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sack 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sign 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Stump.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Sunflover.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Tree 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Tree 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wall Plant.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wheat.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wooden Barrel.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Environment - Wooden Crate.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 01.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 02.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 03.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 04.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 05.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 06.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 07.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 08.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 09.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 10.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 11.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 12.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/EPS/Cartoon_Village_ Level_Set_Platformer - Ground 13.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Background/Background_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Background/Background_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Canopy_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Chimney_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Roof_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Roof_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Decor_Window_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Door_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Ladder_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Ladder_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Pillar_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_A_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Roof_B_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Stone_Window_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_A_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_B_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wall_C_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Building/Window_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Banner_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Bench.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Divine_Statue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Drying_Cloth_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Drying_Cloth_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Fence_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Grass_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Plant_Pot_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Quest_Board.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Rock_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sack_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sack_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sign_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Stump.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Sunflower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Tree_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Tree_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wall_Plant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wheat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wooden_Barrel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Environment/Wooden_Crate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/PNG/Platformer/Ground_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/TXT/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/tiles/FantasyCartoonVillage/TXT/license.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background/BackgroundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/BackgroundManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canon/Canon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/BackGroundEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/BackGroundEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/BackgroundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/BackgroundManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/CloudAni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/CloudAni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/levels/TileGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collision/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/CollisionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collision/HitBoxPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effects/EffectAni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effects/EffectEntity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Projectile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/rework/Projectile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gravity/Gravity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gravity/Gravity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/CollisionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/MouseInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/notUsed/MouseInputs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/object/Cannonball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Cannonball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/maps/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/maps/map1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/idle/survivor-idle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/run/survivor-run_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/feet/walk/survivor-walk_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/move/survivor-move_handgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/idle/survivor-idle_knife_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/knife/move/survivor-move_knife_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/move/survivor-move_rifle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/ammo_clip_empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/ammo_clip_full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/arm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/flashlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/foot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/forearm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_fist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_flashlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_grab_ammo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_hold_knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_holding_gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/hand_steadying_gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/leg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/muzzle_flash_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/pistol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/rifle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/shotgun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/player/images/torso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/toren/torenFire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/toren/torenPas.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tower/Tower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tower/TowerEntity.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,6 +488,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a7f8572-ba50-4f51-8335-19e73b07e4a3" />
+        <option name="url" value="https://github.com/ccmhoop/GameTower.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -390,7 +545,20 @@
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\player" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Entity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entity.Entity" />
+      <module name="Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entity.rework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="Game" />
@@ -407,6 +575,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Entity" />
       </list>
     </recent_temporary>
   </component>
@@ -433,8 +602,26 @@
       <option name="project" value="LOCAL" />
       <updated>1681946146639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="niet klaar">
+      <created>1682410363218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682410363218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="niet klaar" />
@@ -444,32 +631,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/entity/Entity.java</url>
-          <line>22</line>
-          <properties class="entity.Entity" method="setImage">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>35</line>
+          <line>29</line>
           <properties class="entity.Player" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/object/Cannonball.java</url>
+          <line>83</line>
+          <properties class="object.Cannonball" method="canReload">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,13 +10,11 @@ import java.util.Objects;
 
 public class CloudAni extends BackGroundEntity {
     GamePanel gp;
-
     public BufferedImage cloudSmall;
 
     public BufferedImage cloudForG(int a){
-
         try {
-                cloudSmall = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/clouds/Clouds_white/Shape2/cloud_shape2_" +a+".png")));
+            cloudSmall = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/clouds/Clouds_white/Shape2/cloud_shape2_" +a+".png")));
         }catch (IOException e){
             e.printStackTrace();
         }

@@ -1,40 +1,13 @@
 package inputs;
 
 import entity.Player;
-import collision.CollisionChecker;
 import object.Cannonball;
-
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class KeyboardInputs implements KeyListener {
-
-    public boolean collisionOn =false;
     public static String direction;
-    public CollisionChecker col;
-    public static int xP;
-    public static int yP;
-    //public static int jumpTimeCounter,airTimeCounter;
-    public int speed=3;
-
-    public static int getyP() {
-        return yP;
-    }
-
-    public static void setyP(int yP) {
-        KeyboardInputs.yP = yP;
-    }
-
-    public int getxP() {
-        return xP;
-    }
-
-    public static void setxP(int xP) {
-        KeyboardInputs.xP = xP;
-    }
-
-    public static boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,spaceBar=false,ePressed,sideCheck;//jump=false;
-
+    public boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,spaceBar=false,ePressed,sideCheck;
     public void setDirection(String a){
         switch (KeyboardInputs.direction) {
             case "up" -> upPressed=false;
@@ -43,27 +16,10 @@ public class KeyboardInputs implements KeyListener {
             case "right" -> rightPressed=false;
         }
     }
-
-    public static void checkSpeed(int a){
-        if(a==1){
-           rightPressed=false;
-        }
-        if (a==2){
-            leftPressed=false;
-        }
-        if (a==3){
-            downPressed=false;
-        }
-        if (a==4){
-            upPressed=false;
-        }
-    }
-
     @Override
     public void keyTyped(KeyEvent e) {
 
     }
-
     @Override
     public void keyPressed(KeyEvent e) {
 
@@ -82,12 +38,7 @@ public class KeyboardInputs implements KeyListener {
             rightPressed = true;
         } else if (code==KeyEvent.VK_SPACE) {
             spaceBar=true;
-            CollisionChecker.jump=true;
-            //if (CollisionChecker.collision&& !jump){
-                //jump=true;
-           // }
         }
-
         if (code == KeyEvent.VK_E){
             ePressed = true;
             Cannonball.canshot(true);
@@ -119,14 +70,12 @@ public class KeyboardInputs implements KeyListener {
         }
         else if (code==KeyEvent.VK_SPACE) {
         spaceBar=false;
+            Player.aniloader = 0;
          }
         if (code == KeyEvent.VK_E){
             ePressed = false;
             Cannonball.canshot(false);
         }
-       // if(!upPressed&&downPressed&&leftPressed&&rightPressed){
-            //nonPressed=true;
-        //}
     }
 
 }
