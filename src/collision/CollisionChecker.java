@@ -13,6 +13,15 @@ public class CollisionChecker {
         playerPosX = a+64; // +64 compensates for image size (sets true location)
         playerPosY = b;
     }
+
+    private void collisionPrediction() {
+        for (int i = 10; 0 < i; i--) {
+            predictCollisionY = playerPosY - i;
+            if(collisionYaxis.contains(predictCollisionY)) {
+                collisionCheck();
+            }
+        }
+    }//calculates player Y position 10 steps ahead. Compensates for lag;
     private void collisionCheck(){
         for (int p =335; 0 < p; p--) {
             if (collisionYaxis.get(p) ==  predictCollisionY) {
@@ -26,14 +35,6 @@ public class CollisionChecker {
             }
         }
     }//checks for collision if predictCollisionY == collisionYaxis
-    private void collisionPrediction() {
-        for (int i = 10; 0 < i; i--) {
-            predictCollisionY = playerPosY - i;
-            if(collisionYaxis.contains(predictCollisionY)) {
-                collisionCheck();
-            }
-        }
-    }//calculates player Y position 10 steps ahead. Compensates for lag;
     public void update(){
         collisionPrediction();
     }
