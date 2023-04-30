@@ -1,4 +1,4 @@
-package background;
+package background.Rework;
 
 public class BackGroundEntity {
     public int []cX = {0, 700, 0, 0, -600};

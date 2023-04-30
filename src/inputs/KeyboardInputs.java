@@ -1,6 +1,5 @@
 package inputs;
 
-import entity.Player;
 import object.Cannonball;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;

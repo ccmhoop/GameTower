@@ -1,5 +1,6 @@
-package background;
+package background.Rework;
 
+import background.Rework.BackGroundEntity;
 import main.GamePanel;
 
 import javax.imageio.ImageIO;

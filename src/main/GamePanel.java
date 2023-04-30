@@ -16,8 +16,7 @@ public class GamePanel extends JPanel implements Runnable {
     public final int tileSize = originalTileSize * scale;
     public final int maxScreenCol = 24;
     public final int maxScreenRow = 14;
-    //private MouseInputs mouseInputs;
-    KeyboardInputs keyH = new KeyboardInputs();
+    KeyboardInputs keyInput = new KeyboardInputs();
     Thread gameThread;
     BackgroundManager backgroundM = new BackgroundManager(this);
     TileManager tileManager = new TileManager(this);
@@ -26,12 +25,12 @@ public class GamePanel extends JPanel implements Runnable {
     Projectile projectile = new Projectile();
 
     public GamePanel(){
-        this.addKeyListener(keyH);
+        this.addKeyListener(keyInput);
         this.setPreferredSize(new Dimension(1920,1080));
         this.setBackground(Color.BLACK);
         this.setDoubleBuffered(true);
         this.setFocusable(true);
-        player = new Player(this,keyH);
+        player = new Player(this,keyInput);
         startGameThread();
     }
     public void startGameThread(){

@@ -1,8 +1,6 @@
 package background.Rework;
 
 
-import background.BackGroundEntity;
-import background.CloudAni;
 import main.GamePanel;
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -148,11 +146,11 @@ public class BackgroundManager extends BackGroundEntity {
         cloudAni.draw(g2,cloudAni.cloudForG(cIm[1]),cX[1] = cX[1]+cS[1],100+cY[1]);
         g2.drawImage(background[7],0,0,1920,1080,null);
        // g2.drawImage(background[8],128*6,580,256,256,null);
-        g2.drawImage(background[8],80*18,750,160,256,null);
-        g2.drawImage(background[8],80*17,750,160,256,null);
-        g2.drawImage(background[8],80*15,750,160,256,null);
-        g2.drawImage(background[8],80*13,750,160,256,null);
-        g2.drawImage(background[8],80*11,750,160,256,null);
+        g2.drawImage(background[8],80*18,725,160,256,null);
+        g2.drawImage(background[8],80*17,725,160,256,null);
+        g2.drawImage(background[8],80*15,725,160,256,null);
+        g2.drawImage(background[8],80*13,725,160,256,null);
+        g2.drawImage(background[8],80*11,725,160,256,null);
         g2.drawImage(background[12],(80*15)-8,870,96,100,null);
 
 

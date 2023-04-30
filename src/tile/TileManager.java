@@ -13,7 +13,7 @@ import java.util.Objects;
 public class TileManager {
     GamePanel gp;
     public Tile[] tile;
-    int tileLoadCounter;
+    private int tileLoadCounter;
     int[][] mapTileNum;
 
     public static ArrayList <Integer>  collisionYaxis = new ArrayList<>();
@@ -26,18 +26,18 @@ public class TileManager {
           It's important to me that its only being checked if requirements are met instead of it being processed every
           screen draw or update.
 
-        * I want to make in such away that in future updates I can add maps without breaking the code .
+        * I want to make it in such away that in future updates I can add maps without breaking the code.
 
         * My concept is : if the player Y position is in collisionYaxis. (This checks if the Player Y position is on top of a tile);
-          Check if collisionBool = true and Player X position is in between collisionLeft && collisionRight
-          if true gravity is disabled
+          Check if collisionBool = true for the same tile && Player X position is in between collisionLeft && collisionRight
+          If(true) gravity is disabled
 
-        * Short version if collisionBoolean = true use the de index number to check if playerX location is in between collisionLeft/Right
+        * Short version if collisionBoolean = true use the de index number to check if the player location matches the same index
 
         * It is working so far
         * I need to refine the collisionLoader(); to make it more efficient for different maps
 
-        *Jump mechanic : Hold space to go through a platform tap/release space to jump on top of a platform .
+        *Jump mechanic : Hold space to jump through a platform tap/release space to jump on top of a platform .
     */
 
     public TileManager(GamePanel gp) {
@@ -46,10 +46,9 @@ public class TileManager {
         mapTileNum = new int[gp.maxScreenCol][gp.maxScreenRow];
         getTileImage();
         loadMap();
+        mapCollisionLocation();
     }
-
-    //loads in images. tiles 80 by 80. this is going to be looped when all images are known; .
-    public void getTileImage() {
+    private void getTileImage() {
         try {
             //tile[0] = invisible;
             tile[0] = new Tile();
@@ -77,13 +76,12 @@ public class TileManager {
         }
     }
 
-    //loads in data from txt files to set Tile Graphics and location
-    public void loadMap(){
+    //--loads in data from txt files to set Tile Graphics and location--\\
+    private void loadMap(){
         try(InputStream is = getClass().getResourceAsStream("/res/maps/map1.txt")) {
            assert is != null;
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
-            int col = 0;
-            int row = 0;
+            int col = 0,row = 0;
             while (col < gp.maxScreenCol && row< gp.maxScreenRow){
                 String line = br.readLine();
                 while (col< gp.maxScreenCol){
@@ -97,37 +95,61 @@ public class TileManager {
                     row++;
                 }
             }
-            is.close();
-            br.close();
+            is.close();br.close();
         }catch (Exception e){
             e.printStackTrace();
         }
     }
 
-    //loads collision positions once per map
-    public void collisionLoader(int a, int b,int c ,int d){
+    //--Boolean method that contains all tile types that got collision
+    private boolean tileSetCollision(int tileCollision){
+        switch (tileCollision){
+            case 2,6-> {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //--Sets collision locations in array--\\
+    private void setMapCollision(int collisionTiles, int tileYLocation,int tileXLocation){
         if (tileLoadCounter < 336) {
-            if (a == 2 || b == 6) {
+            if (tileSetCollision(collisionTiles)) {
                 collisionBoolean.add(true);
             } else {
                 collisionBoolean.add(false);
             }
-            collisionYaxis.add(d - 105);
-            collisionRight.add(c);
-            collisionLeft.add(c - 80);
+            collisionYaxis.add(tileYLocation - 105);
+            collisionRight.add(tileXLocation);
+            collisionLeft.add(tileXLocation - 80);
             tileLoadCounter++;
         }
     }
 
-    //Draws Graphics. *uses collisionLoader();
-    public void mapDraw(Graphics2D g2){
+    //--loads in collision on start location--\\
+    private void mapCollisionLocation (){
+        int col = 0,row =0,x=0,y=0;
+        while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
+            int tileNum = mapTileNum[col][row];
+            col++;
+            x += gp.tileSize;
+            setMapCollision(tileNum,y,x);
+            if (col == gp.maxScreenCol) {
+                col = 0;
+                row++;
+                y += gp.tileSize;
+                x = 0;
+            }
+        }
+    }
+
+    private void mapDraw(Graphics2D g2){
         int col = 0,row =0,x=0,y=0;
         while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
             int tileNum = mapTileNum[col][row];
             g2.drawImage(tile[tileNum].tileLoader, x, y, gp.tileSize, gp.tileSize, null);
             col++;
             x += gp.tileSize;
-            collisionLoader(tileNum, tileNum, x, y);
             if (col == gp.maxScreenCol) {
                 col = 0;
                 row++;

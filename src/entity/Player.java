@@ -4,107 +4,95 @@ import gravity.Gravity;
 import inputs.KeyboardInputs;
 import collision.CollisionChecker;
 import main.GamePanel;
-import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.Objects;
-
 
 public class Player extends Entity{
 
-    //All animations and key input is being reworked
     GamePanel gp;
-    public static byte drawAni;
-    static BufferedImage []idle = new BufferedImage[18];
-    static BufferedImage []run = new BufferedImage[11];
-    static BufferedImage []runLeft = new BufferedImage[11];
-    static BufferedImage []idleLeft = new BufferedImage[18];
-    static BufferedImage []jump = new BufferedImage[4];
+    private byte drawAnimation;
     CollisionChecker collisionChecker = new CollisionChecker();
     KeyboardInputs keyBoard;
-
     Gravity gravity = new Gravity();
 
-
+    /*
+        * All animations and key input is being reworked
+        * Separating Player related code into methods
+     */
     public Player(GamePanel gp, KeyboardInputs keyH) {
         this.gp = gp;
         this.keyBoard = keyH;
         setDefaultValues();
-        loadPlayerAnimation();
+        setAnimationArray();
     }
-
-    //reworking
-    private void loadPlayerAnimation(){
-        for(int i=0;i<=17;i++){
-            try{
-                if(i>9){
-                    idle[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_0"+i+".png")));
-                }else {
-                    idle[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + i + ".png")));
-                }
-                if(i<=10){
-                    run[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Running/0_Paladin_Running_"+i+".png")));
-                }
-                if(i<=10){
-                    runLeft[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/RunLeft/0_Paladin_Running_"+i+".png")));
-                }
-                idleLeft[i] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/IdleLeft/0_Paladin_Idle_"+i+".png")));
-            }catch (IOException e){
-                e.printStackTrace();
-            }
-        }
-    }
-
     public void setDefaultValues(){
-        playerPositionY = 770;
+        playerPositionY = 740;
         playerPositionX = -30;
         sideCheck=true;
     }
-
-    //Reworking into method. Hold spacebar to go through a platform tap spacebar/release to jump on top of a platform
-    public void update(){
+    public void jump() {
+        if (jumpActive && !Gravity.collision) {
+            jumpCycle += 1;
+            if (jumpCycle < 30) {
+                playerPositionY -= 5;
+            } else if (jumpCycle > 30 && jumpCycle < 60) {
+                playerPositionY -= 2;
+            } else if (jumpCycle > 60 && jumpCycle < 90) {
+                playerPositionY += 2;
+            } else if (jumpCycle > 90 && jumpCycle < 120) {
+                playerPositionY += 5;
+            } else if (jumpCycle == 120) {
+                jumpActive = false;
+                jumpCycle = 0;
+            }
+        }if (Gravity.collision){
+            jumpActive=false;
+            jumpCycle=0;
+        }
+    }
+    public void playerInput(){
         if (keyBoard.leftPressed){
             playerPositionX -= playerSpeed;
-            drawAni=3;
-            idleAni(5, 10);
+            drawAnimation=3;
+            animationLoader(5,18,29);
             sideCheck=false;
         } else if (keyBoard.rightPressed) {
             playerPositionX += playerSpeed;
-            drawAni = 1;
-            idleAni(5, 10);
+            drawAnimation = 1;
+            animationLoader(5,18,29);
             sideCheck = true;
-     }else{
+        }else{
             if (sideCheck) {
-                drawAni = 2;
-                idleAni(5, 17);
+                drawAnimation = 2;
             }else {
-                drawAni = 4;
-                idleAni(5, 17);
+                drawAnimation = 4;
+            }
+            animationLoader(5,0,17);
+        }
+        if (keyBoard.spaceBar) {
+            if (Gravity.collision){
+                jumpActive = true;
+                Gravity.collision = false;
             }
         }
-      if (keyBoard.spaceBar) {
-          if (Gravity.collision){
-              jumpActive = true;
-              Gravity.collision = false;
-          }
-      }
-      if (jumpActive){
-          jump();
-      }else{
-          playerPositionY=gravity.gravity(playerPositionY);
-      }
-      collisionChecker.getPlayerPosition(playerPositionX,playerPositionY);
-    }
+        if (jumpActive){
+            jump();
+        }else{
+            playerPositionY=gravity.gravity(playerPositionY);
+        }
+        collisionChecker.getPlayerPosition(playerPositionX,playerPositionY);
+        if (animationIndex>29){
+            animationIndex =0;
+            animationCycle=0;
+        }
 
-    //Reworking into method
+    }
+    public void update(){
+        playerInput();
+    }
     public void draw(Graphics2D g2){
-        switch (drawAni){
-            case 1->g2.drawImage(run[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
-            case 2->g2.drawImage(idle[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
-            case 3->g2.drawImage(runLeft[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
-            case 4->g2.drawImage(idleLeft[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
-            case 5->g2.drawImage(jump[animationLoader], playerPositionX, playerPositionY, 128, 128, null);
+        switch (drawAnimation){
+            case 1, 2 ->g2.drawImage(facingRightAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
+            case 3, 4 ->g2.drawImage(facingLeftAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
         }
     }
 

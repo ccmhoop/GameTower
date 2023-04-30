@@ -19,11 +19,6 @@ public class Cannonball extends Projectile {
      * I tried to make an automatic firing function.
      * It is working but needs to be improved and optimized.
      */
-    public Cannonball() {
-        name = "canBal";
-        pjSpeed = 6;
-        pjAttack = 2;
-    }
     public static void canshot(boolean a) {
         if (a && reload == 0) {
             try {

@@ -1,7 +1,6 @@
 package gravity;
 
 public class Gravity {
-
     public static boolean collision;
     public int gravity(int a){
      if (collision){

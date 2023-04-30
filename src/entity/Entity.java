@@ -1,101 +1,51 @@
 package entity;
 
-import gravity.Gravity;
 import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Entity {
+    ArrayList<BufferedImage> facingRightAnimation = new ArrayList<>();
+    ArrayList<BufferedImage> facingLeftAnimation = new ArrayList<>();
+    public static int playerPositionX,playerPositionY,playerSpeed=2;
+    public int animationIndex,jumpCycle;
+    public int animationTimer = 0,animationCycle;
+    public boolean sideCheck,jumpActive;
+    private int fileCycle = 1;
 
-    public int playerPositionX,playerPositionY,playerSpeed=2;
-    public static byte animationTimer = 0, animationLoader;
-    private int jumpCycle;
-    public static boolean sideCheck,jumpActive;
-    public static int animationIndex,animation=1;
-
-    public String name;
-
-    // I am using this to check if the new animation loader gets errors.
-    public static void main(String[] args) {
-        setAniArray();
-    }
-
-    //reworking for better animation loading
-    public static void setAniArray(){
-        int c = 1;
-        int d =0;
-        boolean loop = true;
-
-        System.out.println(Player.idle.length);
-        try {
-            while (loop) {
-                switch (animation) {
-                    case (1) -> {
-                        System.out.println("lcs "+animationIndex);
-                        setAniArray(5);
-                        Player.idle[animationIndex] = ImageIO.read(Objects.requireNonNull(Entity.class.getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + animationIndex + ".png")));
-                    }
-                    case (2) -> {
-                        setAniArray(5);
-                        Player.idle[animationIndex] = ImageIO.read(Objects.requireNonNull(Entity.class.getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + animationIndex + ".png")));
-                    }
-                    case (3) -> {
-                        System.out.println("yo");
-                        loop = false;
-                        Player.runLeft[animationIndex] = ImageIO.read(Objects.requireNonNull(Entity.class.getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + animationIndex + ".png")));
-                    }
-                            case (4) ->
-                            Player.run[animationIndex] = ImageIO.read(Objects.requireNonNull(Entity.class.getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + animationIndex + ".png")));
-                    case (5) ->
-                            Player.jump[animationIndex] = ImageIO.read(Objects.requireNonNull(Entity.class.getResourceAsStream("/res/PaladinWhite/PNG/PNG Sequences/Idle/0_Paladin_Idle_00" + animationIndex + ".png")));
-                        }
-                //c++;
-                //d++;
-            }
-            }catch(IOException e){
+    /*
+     *Sets array : facingRightAnimation,facingLeftAnimation. Can cycle through different directories if modified--\\
+     *Example increment NumberDirectory in animationPath(*increment*, fileCycle, "Left|Right") compensate fileCycle if needed--\\
+     */
+    public void setAnimationArray() {
+        while (fileCycle <=30) {
+            try {
+                facingLeftAnimation.add(ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream(animationPath(1, fileCycle, "Left")))));
+                facingRightAnimation.add(ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream(animationPath(1, fileCycle, "Right")))));
+                fileCycle++;
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-
-    //reworking for better animation loading
-    public static void setAniArray(int a){
-            animationIndex ++;
-        if (a == animationIndex){
-            animationIndex=0;
-            animation++;
-        }
     }
 
-    //Hold spacebar to go through a platform tap spacebar to jump on top of a platform
-    public void idleAni(int a,int b) {
-        if (animationTimer == a) {
-            animationLoader++;
-        } else if (animationLoader >= b){
-            animationLoader = 0;
-        }
-        if (animationTimer>a){
+    //--Pathing method makes it quick to find animations in separate directories --\\
+    public static String animationPath(int numberDirectory,int fileNumber,String directoryName){
+        return "/res/playerAnimation/"+numberDirectory+directoryName+"/"+directoryName+" "+"("+fileNumber+").png";
+   }
+
+   //--Controls Animation Speed and cycles through array to get the requested animations--\\
+   //--For more information read animationArrayPosition.txt in "/res/playerAnimation"--\\
+    public void animationLoader(int speed, int indexStart, int indexEnd) {
+        if (animationTimer==speed) {
+            animationCycle++;
             animationTimer=0;
+        } else if (animationIndex==indexEnd){
+            animationCycle=0;
         }
+        animationIndex=animationCycle+indexStart;
         animationTimer+=1;
-    }
-    public void jump() {
-        if (jumpActive && !Gravity.collision) {
-            jumpCycle += 1;
-            if (jumpCycle < 30) {
-                playerPositionY -= 5;
-            } else if (jumpCycle > 30 && jumpCycle < 60) {
-                playerPositionY -= 2;
-            } else if (jumpCycle > 60 && jumpCycle < 90) {
-                playerPositionY += 2;
-            } else if (jumpCycle > 90 && jumpCycle < 120) {
-                playerPositionY += 5;
-            } else if (jumpCycle == 120) {
-                jumpActive = false;
-                jumpCycle = 0;
-            }
-        }if (Gravity.collision){
-            jumpActive=false;
-            jumpCycle=0;
-        }
     }
 }
