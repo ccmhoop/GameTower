@@ -37,8 +37,10 @@ public class KeyboardInputs implements KeyListener {
         }
         else if(code == KeyEvent.VK_D){
             rightPressed = true;
-        } else if (code==KeyEvent.VK_SPACE) {
+        }else if (code==KeyEvent.VK_SPACE) {
             spaceBar=true;
+        }else {
+            nonPressed=true;
         }
         if (code == KeyEvent.VK_E){
             ePressed = true;
@@ -67,7 +69,9 @@ public class KeyboardInputs implements KeyListener {
         }
         else if (code==KeyEvent.VK_SPACE) {
         spaceBar=false;
-         }
+        }else{
+            nonPressed = true;
+        }
         if (code == KeyEvent.VK_E){
             ePressed = false;
             Cannonball.canshot(false);

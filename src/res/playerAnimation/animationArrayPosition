@@ -1,2 +1,5 @@
 0-17  : idle
 18-29 : run
+30-35 : jump Start
+36-41 : jump air
+42-47 : falling

@@ -9,18 +9,18 @@ import java.util.Objects;
 public class Entity {
     ArrayList<BufferedImage> facingRightAnimation = new ArrayList<>();
     ArrayList<BufferedImage> facingLeftAnimation = new ArrayList<>();
-    public static int playerPositionX,playerPositionY,playerSpeed=2;
-    public int animationIndex,jumpCycle;
-    public int animationTimer = 0,animationCycle;
-    public boolean sideCheck,jumpActive;
-    private int fileCycle = 1;
+    String playerAction;
+    public static int playerPositionX, playerPositionY, playerSpeed = 2;
+    private int timer, timeCycle, animationTimer, animationCycle, fileCycle = 1;;
+    public int jumpHeight, animationIndex;
+    public boolean faceRight, jumpActive;
 
     /*
      *Sets array : facingRightAnimation,facingLeftAnimation. Can cycle through different directories if modified--\\
-     *Example increment NumberDirectory in animationPath(*increment*, fileCycle, "Left|Right") compensate fileCycle if needed--\\
+     *Example increment NumberDirectory in method "animationPath(*increment*, fileCycle, "Left|Right")" compensate fileCycle if needed--\\
      */
     public void setAnimationArray() {
-        while (fileCycle <=30) {
+        while (fileCycle <= 48) {
             try {
                 facingLeftAnimation.add(ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream(animationPath(1, fileCycle, "Left")))));
                 facingRightAnimation.add(ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream(animationPath(1, fileCycle, "Right")))));
@@ -32,20 +32,40 @@ public class Entity {
     }
 
     //--Pathing method makes it quick to find animations in separate directories --\\
-    public static String animationPath(int numberDirectory,int fileNumber,String directoryName){
-        return "/res/playerAnimation/"+numberDirectory+directoryName+"/"+directoryName+" "+"("+fileNumber+").png";
-   }
-
-   //--Controls Animation Speed and cycles through array to get the requested animations--\\
-   //--For more information read animationArrayPosition.txt in "/res/playerAnimation"--\\
-    public void animationLoader(int speed, int indexStart, int indexEnd) {
-        if (animationTimer==speed) {
-            animationCycle++;
-            animationTimer=0;
-        } else if (animationIndex==indexEnd){
-            animationCycle=0;
-        }
-        animationIndex=animationCycle+indexStart;
-        animationTimer+=1;
+    private String animationPath(int numberDirectory, int fileNumber, String directoryName) {
+        return "/res/playerAnimation/" + numberDirectory + directoryName + "/" + directoryName + " " + "(" + fileNumber + ").png";
     }
+
+    public int timeCycles(int cycleSpeed, int cycleAmount){
+     timer++;
+     if (timer==cycleSpeed) {
+         timeCycle++;
+     }
+     if (timer>cycleSpeed){
+         timer=0;
+     }
+     if (timeCycle>cycleAmount) {
+         timeCycle =0;
+         timer=0;
+     }
+        return timeCycle;
+    }
+    //--Controls Animation Speed and cycles through array to get the requested animations--\\
+    //--For more information read animationArrayPosition.txt in "/res/playerAnimation"--\\
+    public void animationCycles(int speed, int indexStart, int indexEnd) {
+        animationTimer++;
+        if(animationTimer==speed) {
+            animationIndex = animationCycle + indexStart;
+            animationCycle++;
+        }
+        if (animationIndex>indexEnd){
+            animationCycle=0;
+            animationIndex = animationCycle + indexStart;
+        }
+        if (animationTimer>speed) {
+            animationTimer=0;
+        }
+    }
+
 }
+

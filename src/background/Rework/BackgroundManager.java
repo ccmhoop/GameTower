@@ -95,7 +95,7 @@ public class BackgroundManager extends BackGroundEntity {
             background[2] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/1_game_background/layers/3.png")));
             background[3] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/1_game_background/layers/5.png")));
             background[13] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/1_game_background/layers/6.png")));
-            background[12] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/tiles/FantasyCartoonVillage/PNG/Building/Wide_Door_04.png")));
+            background[12] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/tiles/FantasyCartoonVillage/PNG/Building/Door_04.png")));
             background[14] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/1_game_background/layers/2.png")));
           // background[4] = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/m7/2.png")));
            // background[5]= ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/background/m1/4.png")));
@@ -145,13 +145,20 @@ public class BackgroundManager extends BackGroundEntity {
         //g2.drawImage(background[6],cX[4]+3,-150+cY[4],3000,1200,null);
         cloudAni.draw(g2,cloudAni.cloudForG(cIm[1]),cX[1] = cX[1]+cS[1],100+cY[1]);
         g2.drawImage(background[7],0,0,1920,1080,null);
-       // g2.drawImage(background[8],128*6,580,256,256,null);
-        g2.drawImage(background[8],80*18,725,160,256,null);
+
+
+        g2.drawImage(background[8],80*19,725,160,256,null);
         g2.drawImage(background[8],80*17,725,160,256,null);
         g2.drawImage(background[8],80*15,725,160,256,null);
         g2.drawImage(background[8],80*13,725,160,256,null);
         g2.drawImage(background[8],80*11,725,160,256,null);
-        g2.drawImage(background[12],(80*15)-8,870,96,100,null);
+
+       // g2.drawImage(background[8],80*18,565,160,256,null);
+        g2.drawImage(background[8],80*17,565,160,256,null);
+        g2.drawImage(background[8],80*15,565,160,256,null);
+        g2.drawImage(background[8],80*13,565,160,256,null);
+        //g2.drawImage(background[8],80*11,565,160,256,null);
+        g2.drawImage(background[12],(80*15+8),855,64,112,null);
 
 
     }

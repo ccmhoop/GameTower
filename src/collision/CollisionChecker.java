@@ -22,15 +22,14 @@ public class CollisionChecker {
             }
         }
     }
-
     //--checks for collision if predictCollisionY == collisionYaxis--\\
     private void collisionCheck(){
         for (int index=335;0<index;index--) {
-            if (collisionYaxis.get( index)== predictCollisionY) {
-                if (!collisionBoolean.get( index) && (playerPosX > collisionLeft.get( index) && playerPosX < collisionRight.get(index))) {
+            if (collisionYaxis.get(index)==predictCollisionY) {
+                if (!collisionBoolean.get(index) && (playerPosX>collisionLeft.get(index) && playerPosX < collisionRight.get(index))) {
                     Gravity.collision = false;
                     break;
-                } else if (collisionBoolean.get( index) && (playerPosX >= (collisionLeft.get( index)) && playerPosX <= (collisionRight.get( index)))) {
+                } else if (collisionBoolean.get(index)&&(playerPosX>=(collisionLeft.get(index))&&playerPosX<=(collisionRight.get(index)))) {
                     Gravity.collision = true;
                     break;
                 }
@@ -41,6 +40,5 @@ public class CollisionChecker {
     public void update(){
         collisionPrediction();
     }
-    public void draw(Graphics2D g2){
-    }
+
 }

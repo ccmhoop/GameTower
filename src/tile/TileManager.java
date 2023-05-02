@@ -104,7 +104,7 @@ public class TileManager {
     //--Boolean method that contains all tile types that got collision
     private boolean tileSetCollision(int tileCollision){
         switch (tileCollision){
-            case 2,6-> {
+            case 2,6,5-> {
                 return true;
             }
         }

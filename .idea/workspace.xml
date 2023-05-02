@@ -5,83 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;Ik ga de animate Index out of bounds oplossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
-      <change afterPath="$PROJECT_DIR$/src/collision/Collision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (10).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (11).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (12).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (13).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (14).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (15).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (16).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (17).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (18).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (19).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (20).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (21).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (22).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (23).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (24).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (25).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (26).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (27).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (28).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (29).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (30).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (9).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (10).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (11).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (12).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (13).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (14).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (15).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (16).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (17).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (18).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (19).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (20).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (21).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (22).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (23).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (24).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (25).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (26).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (27).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (28).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (29).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (30).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (9).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/animationArrayPosition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (48).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background/BackGroundEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/BackGroundEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background/CloudAni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/CloudAni.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/background/Rework/BackgroundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/BackgroundManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collision/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gravity/Gravity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gravity/Gravity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Cannonball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Cannonball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res/maps/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/maps/map1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/playerAnimation/animationArrayPosition" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/playerAnimation/animationArrayPosition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +96,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ccmar/IdeaProjects/Game/src/res/playerAnimation/1Left&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ccmar/IdeaProjects/Game/src/res/playerAnimation/1Right&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -142,9 +109,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation\1Right" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation\1Left" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation" />
-      <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation\1Right" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation\right" />
       <recent name="C:\Users\ccmar\IdeaProjects\Game\src\res\playerAnimation\Idle" />
     </key>
@@ -255,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682782224945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;Ik ga de animate Index out of bounds oplossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
+      <created>1682857516891</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682857516891</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +255,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>20</line>
+          <line>19</line>
           <properties class="entity.Player" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -297,6 +271,33 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>88</line>
+          <properties class="entity.Player" method="update">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
+          <line>24</line>
+          <properties class="inputs.KeyboardInputs" method="keyPressed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
+          <line>25</line>
+          <properties class="collision.CollisionChecker" method="collisionCheck">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
           <line>10</line>
@@ -304,7 +305,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -316,6 +317,31 @@
           <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
           <line>17</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

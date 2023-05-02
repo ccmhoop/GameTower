@@ -9,7 +9,6 @@ import java.awt.*;
 public class Player extends Entity{
 
     GamePanel gp;
-    private byte drawAnimation;
     CollisionChecker collisionChecker = new CollisionChecker();
     KeyboardInputs keyBoard;
     Gravity gravity = new Gravity();
@@ -24,76 +23,76 @@ public class Player extends Entity{
         setDefaultValues();
         setAnimationArray();
     }
-    public void setDefaultValues(){
+
+    private void setDefaultValues(){
+        playerAction ="idle";
         playerPositionY = 740;
         playerPositionX = -30;
-        sideCheck=true;
+        faceRight =true;
     }
-    public void jump() {
-        if (jumpActive && !Gravity.collision) {
-            jumpCycle += 1;
-            if (jumpCycle < 30) {
-                playerPositionY -= 5;
-            } else if (jumpCycle > 30 && jumpCycle < 60) {
-                playerPositionY -= 2;
-            } else if (jumpCycle > 60 && jumpCycle < 90) {
-                playerPositionY += 2;
-            } else if (jumpCycle > 90 && jumpCycle < 120) {
-                playerPositionY += 5;
-            } else if (jumpCycle == 120) {
-                jumpActive = false;
-                jumpCycle = 0;
-            }
-        }if (Gravity.collision){
-            jumpActive=false;
-            jumpCycle=0;
+
+    private void jump(){
+
+        switch (timeCycles(9,9)) {
+            //windup\\
+            case (3),(4)-> {Gravity.collision = false;playerPositionY -= 5;jumpHeight -= 5;}
+            case (5), (6) -> {playerPositionY -= 2;jumpHeight -= 2;}
+            case (7), (8) -> {playerPositionY -= 1;jumpHeight -= 1;}
+            case (9)->{jumpActive=false;Gravity.collision=false;}
         }
     }
+
+    private void requestPlayerAnimation(){
+        if(!Gravity.collision){
+            animationCycles(15,42,47);
+        } else {
+            switch (playerAction) {
+                case ("idle") -> animationCycles(5, 0, 17);
+                case ("run") -> animationCycles(5, 18, 29);
+            }
+       }
+    }
+
     public void playerInput(){
+
         if (keyBoard.leftPressed){
+            playerAction = "run";
             playerPositionX -= playerSpeed;
-            drawAnimation=3;
-            animationLoader(5,18,29);
-            sideCheck=false;
+            faceRight =false;
         } else if (keyBoard.rightPressed) {
+            playerAction = "run";
             playerPositionX += playerSpeed;
-            drawAnimation = 1;
-            animationLoader(5,18,29);
-            sideCheck = true;
-        }else{
-            if (sideCheck) {
-                drawAnimation = 2;
-            }else {
-                drawAnimation = 4;
-            }
-            animationLoader(5,0,17);
-        }
-        if (keyBoard.spaceBar) {
+            faceRight = true;
+        }  else{
+            playerAction = "idle";
+        }if (keyBoard.spaceBar) {
             if (Gravity.collision){
                 jumpActive = true;
-                Gravity.collision = false;
             }
         }
-        if (jumpActive){
+        if (jumpActive) {
             jump();
         }else{
             playerPositionY=gravity.gravity(playerPositionY);
         }
         collisionChecker.getPlayerPosition(playerPositionX,playerPositionY);
-        if (animationIndex>29){
-            animationIndex =0;
-            animationCycle=0;
-        }
-
     }
+
+    private void playerAnimationDrawer(Graphics2D g2){
+        if (faceRight) {
+            g2.drawImage(facingRightAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
+        } else {
+            g2.drawImage(facingLeftAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
+        }
+    }
+
     public void update(){
         playerInput();
+        requestPlayerAnimation();
     }
+
     public void draw(Graphics2D g2){
-        switch (drawAnimation){
-            case 1, 2 ->g2.drawImage(facingRightAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
-            case 3, 4 ->g2.drawImage(facingLeftAnimation.get(animationIndex), playerPositionX, playerPositionY, 128, 128, null);
-        }
+        playerAnimationDrawer(g2);
     }
 
 }
