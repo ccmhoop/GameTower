@@ -5,50 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8063cd4-5584-4ae2-ad61-358016db6d33" name="Changes" comment="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;Ik ga de animate Index out of bounds oplossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (37).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (38).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (39).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (40).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (41).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (42).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (43).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (44).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (45).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (46).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (47).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/Left (48).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (31).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (32).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (33).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (34).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (35).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Left/left (36).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (31).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (32).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (33).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (34).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (35).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (36).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (37).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (38).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (39).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (40).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (41).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (42).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (43).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (44).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (45).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (46).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (47).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/playerAnimation/1Right/Right (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collision/CollisionInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background/Rework/BackgroundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/Rework/BackgroundManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collision/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/Collision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collision/CollisionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collision/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gravity/Gravity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gravity/Gravity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/maps/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/maps/map1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/playerAnimation/animationArrayPosition" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/playerAnimation/animationArrayPosition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -229,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682857516891</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ik heb mijn variable namen aangepast dit is hoe ik het normaal in elkaar zal zetten.&#10;Ik heb veel bloat code er uit gehaald het meeste was om te leren hoe het met elkaar werkt.&#10;Ook heb ik verschillende manieren van variable passing geprobeerd waardoor het nog al chaotisch was.&#10;De vorige versie was daarom niet geoptimaliseerd naar mijn huidig vermogen.&#10;Ik heb ook extra Commentlines toegevoegd over wat man doel is en manier van denken.&#10;Dit is een beter beeld waar ik sta en wat ik moet verbeteren.&#10;&#10;Ik ben nu de player class aan het bijwerken.&#10;Ik ga de animate Index out of bounds oplossen en de Keyboard input in methodes plaatsen.&#10;Mijn plan is 1 Array voor links en 1 Array voor rechts en dan de juist index aan te roepen voor lopen springen enz.">
+      <created>1683048510475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683048510475</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +227,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>19</line>
+          <line>20</line>
           <properties class="entity.Player" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -273,7 +245,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>88</line>
+          <line>97</line>
           <properties class="entity.Player" method="update">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -291,12 +263,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
-          <line>25</line>
+          <line>24</line>
           <properties class="collision.CollisionChecker" method="collisionCheck">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>104</line>
+          <properties class="entity.Player" method="draw">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/inputs/KeyboardInputs.java</url>
@@ -305,7 +286,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -314,34 +295,34 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/collision/CollisionChecker.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="22" />
+          <line>36</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/src/entity/Entity.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/entity/Entity.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
           <line>80</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tile/TileManager.java</url>
-          <line>130</line>
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

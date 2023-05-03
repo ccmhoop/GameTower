@@ -1,4 +1,6 @@
 package collision;
 
-public class Collision {
+public class Collision implements CollisionInterface {
+
+
 }

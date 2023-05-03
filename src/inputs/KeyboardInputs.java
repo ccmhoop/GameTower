@@ -6,7 +6,7 @@ import java.awt.event.KeyListener;
 
 public class KeyboardInputs implements KeyListener {
     public static String direction;
-    public boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,spaceBar=false,ePressed,sideCheck;
+    public boolean upPressed,downPressed,leftPressed,rightPressed,nonPressed,spaceBar=false,ePressed;
     public void setDirection(String a){
         switch (KeyboardInputs.direction) {
             case "up" -> upPressed=false;
@@ -61,16 +61,12 @@ public class KeyboardInputs implements KeyListener {
         }
         else if(code == KeyEvent.VK_A){
             leftPressed = false;
-            sideCheck=false;
         }
         else if(code == KeyEvent.VK_D) {
             rightPressed = false;
-            sideCheck=true;
         }
         else if (code==KeyEvent.VK_SPACE) {
-        spaceBar=false;
-        }else{
-            nonPressed = true;
+            spaceBar = false;
         }
         if (code == KeyEvent.VK_E){
             ePressed = false;

@@ -16,10 +16,10 @@ public class TileManager {
     private int tileLoadCounter;
     int[][] mapTileNum;
 
-    public static ArrayList <Integer>  collisionYaxis = new ArrayList<>();
-    public  static ArrayList <Integer> collisionRight = new ArrayList<>();
-    public  static ArrayList <Integer> collisionLeft = new ArrayList<>();
-    public  static ArrayList <Boolean> collisionBoolean = new ArrayList<>();
+    public static ArrayList <Integer> tile_Yaxis_collision = new ArrayList<>();
+    public  static ArrayList <Integer> tile_right_collision = new ArrayList<>();
+    public  static ArrayList <Integer> tile_left_collision = new ArrayList<>();
+    public  static ArrayList <Boolean> tile_collision_boolean = new ArrayList<>();
 
     /*
         * I tried to make a collision system that dint require calculations. This allows me to make maps quick.
@@ -46,7 +46,7 @@ public class TileManager {
         mapTileNum = new int[gp.maxScreenCol][gp.maxScreenRow];
         getTileImage();
         loadMap();
-        mapCollisionLocation();
+        defaultCollisionLocations();
     }
     private void getTileImage() {
         try {
@@ -102,7 +102,7 @@ public class TileManager {
     }
 
     //--Boolean method that contains all tile types that got collision
-    private boolean tileSetCollision(int tileCollision){
+    private boolean setTileCollision(int tileCollision){
         switch (tileCollision){
             case 2,6,5-> {
                 return true;
@@ -114,20 +114,20 @@ public class TileManager {
     //--Sets collision locations in array--\\
     private void setMapCollision(int collisionTiles, int tileYLocation,int tileXLocation){
         if (tileLoadCounter < 336) {
-            if (tileSetCollision(collisionTiles)) {
-                collisionBoolean.add(true);
+            if (setTileCollision(collisionTiles)) {
+                tile_collision_boolean.add(true);
             } else {
-                collisionBoolean.add(false);
+                tile_collision_boolean.add(false);
             }
-            collisionYaxis.add(tileYLocation - 105);
-            collisionRight.add(tileXLocation);
-            collisionLeft.add(tileXLocation - 80);
+            tile_Yaxis_collision.add(tileYLocation - 105);
+            tile_right_collision.add(tileXLocation);
+            tile_left_collision.add(tileXLocation - 80);
             tileLoadCounter++;
         }
     }
 
-    //--loads in collision on start location--\\
-    private void mapCollisionLocation (){
+    //--loads in collision on start--\\
+    private void defaultCollisionLocations(){
         int col = 0,row =0,x=0,y=0;
         while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
             int tileNum = mapTileNum[col][row];
